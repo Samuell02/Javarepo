@@ -13,5 +13,6 @@ public class CartaoDeCredito extends  Pagamento{
     }
     public void EmitirRecibo(){
 
+
     }
 }
