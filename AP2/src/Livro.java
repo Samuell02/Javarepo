@@ -10,6 +10,10 @@ public class Livro  extends  Produto {
         this.Título = novoTítulo;
         this.Volume= novovolume;
     }
+    public void setTítulo(String novoTítulo) {
+        this.Título = novoTítulo;
+        this.Volume= novovolume;
+    }
     public void DetalhesDoProduto(){
 
     }
