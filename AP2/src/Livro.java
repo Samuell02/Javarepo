@@ -3,7 +3,8 @@ public class Livro  extends  Produto {
 
     private String Autor;
 
-
+int max = 999999;
+int min = 100000;
 
     private String AnodePublicaçao;
 
@@ -52,7 +53,6 @@ public class Livro  extends  Produto {
        getTítulo();
        getVolume();
        getGenero();
-       getId();
        getAnodePublicaçao();
        getDisponibilidade();
        getGenero();

@@ -1,9 +1,5 @@
 public abstract class Produto {
 
-    private int id;
-
-
-
     private String Genero;
 
 
@@ -19,14 +15,9 @@ public abstract class Produto {
     }
     public abstract  void DetalhesDoProduto();
 
-    public int getId() {
-        return id;
-    }
 
-    public void setId(int novoId) {
-        this.id = novoId;
 
-    }
+
     public String getGenero() {
         return Genero;
     }
