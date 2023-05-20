@@ -1,22 +1,27 @@
 public abstract class Produto {
-   private String Título;
+
     private int id;
+
+
 
     private String Genero;
 
     public abstract  void DetalhesDoProduto();
 
     public String getTítulo() {
-        return Título;
+        return id;
     }
 
-    public void setTítulo(String novoTítulo) {
-        this.Título = novoTítulo;
-    }
-    public void setTítulo(String novoTítulo,String novovolume) {
-        this.Título = novoTítulo;
+    public void getId(int novoId) {
+        this.id = novoId;
 
-        this.Volume= novovolume;
+    }
+    public String getGenero() {
+        return Genero;
+    }
+
+    public void setGenero(String novogenero) {
+        Genero = novogenero;
     }
 
 }
