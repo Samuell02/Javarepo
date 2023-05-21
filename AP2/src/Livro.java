@@ -3,14 +3,20 @@ public class Livro  extends  Produto {
 
     private String Autor;
 
-int max = 999999;
-int min = 100000;
 
     private String AnodePublicaçao;
 
     private String Disponibilidade;
 
     private String Volume;
+
+    public Livro(String título, String autor, String anodePublicaçao, String disponibilidade, String volume) {
+        Título = título;
+        Autor = autor;
+        AnodePublicaçao = anodePublicaçao;
+        Disponibilidade = disponibilidade;
+        Volume = volume;
+    }
 
     public String getAutor() {
         return Autor;
@@ -46,6 +52,7 @@ int min = 100000;
     public String getTítulo() {
         return Título;
     }
+
     public String getVolume() {
         return Volume;
     }

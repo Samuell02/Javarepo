@@ -6,6 +6,8 @@ public abstract class Produto {
 
     private String Editora;
 
+
+
     public String getEditora() {
         return Editora;
     }
