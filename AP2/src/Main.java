@@ -15,6 +15,7 @@ public class Main   {
 
 
         biblioteca1.adicionarLivro1(livro1,"Dito e feito ", "Infantil","2006","Jennifer Armstrong / Kimberly Bulcken Root ");
+        livro1.setTítulo(" Os pecados de Descartes.");
 
            livro1.getTítulo();
     }
