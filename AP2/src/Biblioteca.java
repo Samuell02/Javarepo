@@ -160,8 +160,23 @@ public class Biblioteca  {
             livro5.setDisponibilidade(novoDisponibilidade);
 
 
-
         }
-
     }
+
+        public void removerLivro(String novotitulo) {
+            if (livro1 != null && livro1.getTítulo().equals(novotitulo)) {
+                livro1 = null;
+            } else if (livro2 != null && livro2.getTítulo().equals(novotitulo)) {
+                livro2 = null;
+            } else if (livro3 != null && livro3.getTítulo().equals(novotitulo)) {
+                livro3 = null;
+            } else if (livro4 != null && livro4.getTítulo().equals(novotitulo)){
+                livro4 = null;
+
+            } else if (livro5 != null && livro5.getTítulo().equals(novotitulo)){
+                livro5 = null;
+
+            }
+        }
+}
 }
