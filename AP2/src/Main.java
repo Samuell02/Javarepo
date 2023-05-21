@@ -24,8 +24,9 @@ public class Main   {
         System.out.println(livro1.getGenero());
         System.out.println(livro1.getEditora());
         System.out.println(livro3.detalhesDoProduto());
-        biblioteca1.removerLivro(" A casa amarela");
+        biblioteca1.removerLivro("A casa amarela");
         System.out.println(livro3.getTítulo());
+        
 
 
         livro1.detalhesDoProduto();
