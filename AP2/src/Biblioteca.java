@@ -166,10 +166,11 @@ public class Biblioteca  {
         public void removerLivro(String novotitulo) {
             if (livro1 != null && livro1.getTítulo().equals(novotitulo)) {
                 livro1 = null;
+                livro1.setTítulo(null);
             } else if (livro2 != null && livro2.getTítulo().equals(novotitulo)) {
                 livro2 = null;
             } else if (livro3 != null && livro3.getTítulo().equals(novotitulo)) {
-                livro3 = null;
+                livro3.setTítulo(null);
             } else if (livro4 != null && livro4.getTítulo().equals(novotitulo)){
                 livro4 = null;
 
@@ -178,5 +179,20 @@ public class Biblioteca  {
 
             }
         }
-}
+
+    public void verificarDisponibilidade(String titulo) {
+        if (livro1 != null && livro1.getTítulo().equals(titulo)) {
+            System.out.println(livro1.getDisponibilidade());
+        } else if (livro2 != null && livro2.getTítulo().equals(titulo)) {
+            System.out.println(livro2.getDisponibilidade());
+        } else if (livro3 != null && livro3.getTítulo().equals(titulo)) {
+            System.out.println(livro3.getDisponibilidade());
+        } else if (livro4 != null && livro4.getTítulo().equals(titulo)) {
+            System.out.println(livro4.getDisponibilidade());
+        } else if (livro4 != null && livro4.getTítulo().equals(titulo)) {
+            System.out.println(livro4.getDisponibilidade());}
+        else {
+            System.out.println("Livro não encontrado.");
+        }
+    }
 }
