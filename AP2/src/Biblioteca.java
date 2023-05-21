@@ -49,13 +49,14 @@ public class Biblioteca  {
     }
 
     public void adicionarLivro3(Livro livro, String novotitulo,String Novovolume, String novogenero, String novoanodepublicacao, String Novoauthor,String novaeditora) {
-        if (livro != null && livro.getTítulo() != null && !livro.getTítulo().isEmpty() && livro.getTítulo() == ""  ) {
+        if (livro != null && livro.getTítulo() != null && !livro.getTítulo().isEmpty() || livro.getTítulo() == ""  ) {
             this.livro3 = livro;
             livro3.setTítulo(novotitulo,Novovolume);
             livro3.setAutor(Novoauthor);
             livro3.setGenero(novogenero);
             livro3.setAnodePublicaçao(novoanodepublicacao);
             livro3.setDisponibilidade("Sim");
+            livro3.setEditora((novaeditora));
 
         } else {
             System.out.println("Não é possível adicionar um livro sem título ao slot 2.");
@@ -174,10 +175,15 @@ public class Biblioteca  {
             if (livro1 != null && livro1.getTítulo().equals(novotitulo)) {
                 livro1 = null;
                 livro1.setTítulo(null);
+                livro1.setEditora(null);
+                livro1.setAutor(null);
+                livro1.setDisponibilidade(null);
+                livro1.setAnodePublicaçao(null);
+                livro1.setGenero(null);
             } else if (livro2 != null && livro2.getTítulo().equals(novotitulo)) {
                 livro2 = null;
             } else if (livro3 != null && livro3.getTítulo().equals(novotitulo)) {
-                livro3.setTítulo(null);
+                livro3 = null;
             } else if (livro4 != null && livro4.getTítulo().equals(novotitulo)){
                 livro4 = null;
 

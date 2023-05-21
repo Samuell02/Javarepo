@@ -19,13 +19,12 @@ public class Main   {
         Biblioteca biblioteca1 = new Biblioteca(livro1,livro2,livro3,livro4,livro5);
 
          biblioteca1.adicionarLivro3(livro3,"A casa amarela","Unico","infantil","2011","Sarah M. Broom","Somos Livros");
-        System.out.println(livro3.getTítulo());
         System.out.println(livro3.detalhesDoProduto());
-        System.out.println(livro1.getGenero());
-        System.out.println(livro1.getEditora());
-        biblioteca1.removerLivro("A casa amarela");
-        System.out.println(livro3.getTítulo());
-        System.out.println(livro3.detalhesDoProduto());
+        System.out.println(livro3.getGenero());
+        System.out.println(livro3.getEditora());
+        biblioteca1.removerLivro("Dito e feito ");
+        System.out.println(livro1.getTítulo());
+        System.out.println(livro1.detalhesDoProduto());
 
     }
 }
