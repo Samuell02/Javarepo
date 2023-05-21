@@ -49,7 +49,7 @@ public class Biblioteca  {
     }
 
     public void adicionarLivro3(Livro livro, String novotitulo,String Novovolume, String novogenero, String novoanodepublicacao, String Novoauthor,String novaeditora) {
-        if (livro != null && livro.getTítulo() != null && !livro.getTítulo().isEmpty()) {
+        if (livro != null && livro.getTítulo() != null && !livro.getTítulo().isEmpty() && livro.getTítulo() == ""  ) {
             this.livro3 = livro;
             livro3.setTítulo(novotitulo,Novovolume);
             livro3.setAutor(Novoauthor);
