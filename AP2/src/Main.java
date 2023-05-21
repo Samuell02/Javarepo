@@ -22,7 +22,7 @@ public class Main   {
         System.out.println(livro3.detalhesDoProduto());
         System.out.println(livro3.getGenero());
         System.out.println(livro3.getEditora());
-        biblioteca1.removerLivro("Dito e feito ");
+        biblioteca1.removerLivro("A casa amarela");
         System.out.println(livro1.getTítulo());
         System.out.println(livro1.detalhesDoProduto());
 
