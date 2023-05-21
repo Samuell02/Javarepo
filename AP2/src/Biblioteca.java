@@ -1,13 +1,8 @@
 import java.util.Random;
 
-public class Biblioteca  extends Livro {
-    public Biblioteca(Livro livro1, Livro livro2, Livro livro3, Livro livro4, Livro livro5) {
-        this.livro1 = livro1;
-        livro1.setTítulo("hunger games");
-        this.livro2 = livro2;
-        this.livro3 = livro3;
-    }
- Biblioteca biblioteca1 = new Biblioteca(Livro livro1, Livro livro2, Livro livro3, Livro livro4, Livro livro5);
+public class Biblioteca  {
+
+
 
     Livro livro1;
     Livro livro2;
