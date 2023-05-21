@@ -104,4 +104,64 @@ public class Biblioteca  {
         }
 
     }
+
+    public void AtualizarLivro2(Livro livro, String novotitulo, String novogenero, String novoanodepublicacao, String Novoauthor, String novoDisponibilidade) {
+        {
+            this.livro2 = livro;
+            livro2.setTítulo(novotitulo);
+            livro2.setAutor(Novoauthor);
+            livro2.setGenero(novogenero);
+            livro2.setAnodePublicaçao(novoanodepublicacao);
+            livro2.setDisponibilidade(novoDisponibilidade);
+
+
+
+        }
+
+    }
+
+    public void AtualizarLivro3(Livro livro, String novotitulo, String novogenero, String novoanodepublicacao, String Novoauthor, String novoDisponibilidade) {
+        {
+            this.livro3 = livro;
+            livro3.setTítulo(novotitulo);
+            livro3.setAutor(Novoauthor);
+            livro3.setGenero(novogenero);
+            livro3.setAnodePublicaçao(novoanodepublicacao);
+            livro3.setDisponibilidade(novoDisponibilidade);
+
+
+
+        }
+
+    }
+
+    public void AtualizarLivro4(Livro livro, String novotitulo, String novogenero, String novoanodepublicacao, String Novoauthor, String novoDisponibilidade) {
+        {
+            this.livro5 = livro;
+            livro4.setTítulo(novotitulo);
+            livro4.setAutor(Novoauthor);
+            livro4.setGenero(novogenero);
+            livro4.setAnodePublicaçao(novoanodepublicacao);
+            livro4.setDisponibilidade(novoDisponibilidade);
+
+
+
+        }
+
+    }
+
+    public void AtualizarLivro5(Livro livro, String novotitulo, String novogenero, String novoanodepublicacao, String Novoauthor, String novoDisponibilidade) {
+        {
+            this.livro5 = livro;
+            livro5.setTítulo(novotitulo);
+            livro5.setAutor(Novoauthor);
+            livro5.setGenero(novogenero);
+            livro5.setAnodePublicaçao(novoanodepublicacao);
+            livro5.setDisponibilidade(novoDisponibilidade);
+
+
+
+        }
+
+    }
 }

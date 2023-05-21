@@ -45,10 +45,15 @@ public class Livro  extends  Produto {
         this.Título = novoTítulo;
         this.Volume= novovolume;
     }
+
+    public String detalhesDoProduto() {
+        return "Título: " + getTítulo() + ", Autor: " + Autor + ", Ano de Publicação: " + AnodePublicaçao + ", Disponível: " + Disponibilidade;
+    }
     public void setTítulo(String novoTítulo) {
         this.Título = novoTítulo;
 
     }
+
     public String getTítulo() {
         return Título;
     }
