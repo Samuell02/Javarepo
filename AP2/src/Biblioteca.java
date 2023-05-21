@@ -18,10 +18,10 @@ public class Biblioteca  {
         this.livro5 = livro5;
     }
 
-    public void adicionarLivro1(Livro livro, String novotitulo, String novogenero, String novoanodepublicacao, String Novoauthor) {
+    public void adicionarLivro1(Livro livro, String novotitulo,String Novovolume, String novogenero, String novoanodepublicacao, String Novoauthor,String novaeditora) {
         if (livro != null && livro.getTítulo() != null && !livro.getTítulo().isEmpty()) {
             this.livro1 = livro;
-            livro1.setTítulo(novotitulo);
+            livro1.setTítulo(novotitulo,Novovolume);
             livro1.setAutor(Novoauthor);
             livro1.setGenero(novogenero);
             livro1.setAnodePublicaçao(novoanodepublicacao);
@@ -32,14 +32,15 @@ public class Biblioteca  {
         }
     }
 
-    public void adicionarLivro2(Livro livro, String novotitulo, String novogenero, String novoanodepublicacao, String Novoauthor) {
+    public void adicionarLivro2(Livro livro, String novotitulo,String Novovolume, String novogenero, String novoanodepublicacao, String Novoauthor, String novaeditora) {
         if (livro != null && livro.getTítulo() != null && !livro.getTítulo().isEmpty()) {
             this.livro2 = livro;
-            livro2.setTítulo(novotitulo);
+            livro2.setTítulo(novotitulo,Novovolume);
             livro2.setAutor(Novoauthor);
             livro2.setGenero(novogenero);
             livro2.setAnodePublicaçao(novoanodepublicacao);
             livro2.setDisponibilidade("Sim");
+            livro2.setEditora(novaeditora);
 
         } else {
             System.out.println("Não é possível adicionar um livro sem título ao slot 2.");
@@ -47,10 +48,10 @@ public class Biblioteca  {
 
     }
 
-    public void adicionarLivro3(Livro livro, String novotitulo, String novogenero, String novoanodepublicacao, String Novoauthor) {
+    public void adicionarLivro3(Livro livro, String novotitulo,String Novovolume, String novogenero, String novoanodepublicacao, String Novoauthor,String novaeditora) {
         if (livro != null && livro.getTítulo() != null && !livro.getTítulo().isEmpty()) {
             this.livro3 = livro;
-            livro3.setTítulo(novotitulo);
+            livro3.setTítulo(novotitulo,Novovolume);
             livro3.setAutor(Novoauthor);
             livro3.setGenero(novogenero);
             livro3.setAnodePublicaçao(novoanodepublicacao);
@@ -62,10 +63,10 @@ public class Biblioteca  {
 
     }
 
-    public void adicionarLivro4(Livro livro, String novotitulo, String novogenero, String novoanodepublicacao, String Novoauthor) {
+    public void adicionarLivro4(Livro livro, String novotitulo,String Novovolume, String novogenero, String novoanodepublicacao, String Novoauthor,String novaeditora) {
         if (livro != null && livro.getTítulo() != null && !livro.getTítulo().isEmpty()) {
             this.livro4 = livro;
-            livro4.setTítulo(novotitulo);
+            livro4.setTítulo(novotitulo,Novovolume);
             livro4.setAutor(Novoauthor);
             livro4.setGenero(novogenero);
             livro4.setAnodePublicaçao(novoanodepublicacao);
@@ -76,10 +77,10 @@ public class Biblioteca  {
         }
     }
 
-    public void adicionarLivro5(Livro livro, String novotitulo, String novogenero, String novoanodepublicacao, String Novoauthor) {
+    public void adicionarLivro5(Livro livro, String novotitulo,String Novovolume, String novogenero, String novoanodepublicacao, String Novoauthor,String novaeditora) {
         if (livro != null && livro.getTítulo() != null && !livro.getTítulo().isEmpty()) {
             this.livro5 = livro;
-            livro5.setTítulo(novotitulo);
+            livro5.setTítulo(novotitulo,Novovolume);
             livro5.setAutor(Novoauthor);
             livro5.setGenero(novogenero);
             livro5.setAnodePublicaçao(novoanodepublicacao);
@@ -90,14 +91,15 @@ public class Biblioteca  {
 
     }
 
-    public void AtualizarLivro1(Livro livro, String novotitulo, String novogenero, String novoanodepublicacao, String Novoauthor, String novoDisponibilidade) {
+    public void AtualizarLivro1(Livro livro, String novotitulo,String  Novovolume, String novogenero, String novoanodepublicacao, String Novoauthor, String novoDisponibilidade,String novaeditora) {
         {
             this.livro1 = livro;
-            livro.setTítulo(novotitulo);
-            livro.setAutor(Novoauthor);
-            livro.setGenero(novogenero);
-            livro.setAnodePublicaçao(novoanodepublicacao);
-            livro.setDisponibilidade(novoDisponibilidade);
+            livro1.setTítulo(novotitulo,Novovolume);
+            livro1.setAutor(Novoauthor);
+            livro1.setGenero(novogenero);
+            livro1.setAnodePublicaçao(novoanodepublicacao);
+            livro1.setDisponibilidade(novoDisponibilidade);
+            livro1.setEditora(novaeditora);
 
 
 
@@ -105,14 +107,15 @@ public class Biblioteca  {
 
     }
 
-    public void AtualizarLivro2(Livro livro, String novotitulo, String novogenero, String novoanodepublicacao, String Novoauthor, String novoDisponibilidade) {
+    public void AtualizarLivro2(Livro livro, String novotitulo,String  Novovolume, String novogenero, String novoanodepublicacao, String Novoauthor, String novoDisponibilidade,String novaeditora) {
         {
             this.livro2 = livro;
-            livro2.setTítulo(novotitulo);
+            livro2.setTítulo(novotitulo,Novovolume);
             livro2.setAutor(Novoauthor);
             livro2.setGenero(novogenero);
             livro2.setAnodePublicaçao(novoanodepublicacao);
             livro2.setDisponibilidade(novoDisponibilidade);
+            livro2.setEditora(novaeditora);
 
 
 
@@ -120,14 +123,16 @@ public class Biblioteca  {
 
     }
 
-    public void AtualizarLivro3(Livro livro, String novotitulo, String novogenero, String novoanodepublicacao, String Novoauthor, String novoDisponibilidade) {
+    public void AtualizarLivro3(Livro livro, String novotitulo,String  Novovolume, String novogenero, String novoanodepublicacao, String Novoauthor, String novoDisponibilidade,String novaeditora) {
         {
             this.livro3 = livro;
-            livro3.setTítulo(novotitulo);
+            livro3.setTítulo(novotitulo,Novovolume);
             livro3.setAutor(Novoauthor);
             livro3.setGenero(novogenero);
             livro3.setAnodePublicaçao(novoanodepublicacao);
             livro3.setDisponibilidade(novoDisponibilidade);
+            livro3.setEditora(novaeditora);
+
 
 
 
@@ -135,14 +140,16 @@ public class Biblioteca  {
 
     }
 
-    public void AtualizarLivro4(Livro livro, String novotitulo, String novogenero, String novoanodepublicacao, String Novoauthor, String novoDisponibilidade) {
+    public void AtualizarLivro4(Livro livro, String novotitulo,String  Novovolume, String novogenero, String novoanodepublicacao, String Novoauthor, String novoDisponibilidade,String novaeditora) {
         {
             this.livro5 = livro;
-            livro4.setTítulo(novotitulo);
+            livro4.setTítulo(novotitulo,Novovolume);
             livro4.setAutor(Novoauthor);
             livro4.setGenero(novogenero);
             livro4.setAnodePublicaçao(novoanodepublicacao);
             livro4.setDisponibilidade(novoDisponibilidade);
+            livro4.setEditora(novaeditora);
+
 
 
 
@@ -150,7 +157,7 @@ public class Biblioteca  {
 
     }
 
-    public void AtualizarLivro5(Livro livro, String novotitulo, String novogenero, String novoanodepublicacao, String Novoauthor, String novoDisponibilidade) {
+    public void AtualizarLivro5(Livro livro, String novotitulo,String  Novovolume, String novogenero, String novoanodepublicacao, String Novoauthor, String novoDisponibilidade,String novaeditora) {
         {
             this.livro5 = livro;
             livro5.setTítulo(novotitulo);
@@ -158,7 +165,7 @@ public class Biblioteca  {
             livro5.setGenero(novogenero);
             livro5.setAnodePublicaçao(novoanodepublicacao);
             livro5.setDisponibilidade(novoDisponibilidade);
-
+           livro5.setEditora(novaeditora);
 
         }
     }

@@ -12,13 +12,13 @@ public class Main   {
         livro2.setEditora(" Intrínseca");
         Livro livro3 =  new Livro("","","","","");
 
-        Livro livro4 =  new Livro("","","","","");
+        Livro livro4 =  new Livro("O Mágico de Oz","L. Frank Braum","2017(Publicação original em  1900)","Não","Unico");
+
         Livro livro5 =  new Livro("","","","","");
 
         Biblioteca biblioteca1 = new Biblioteca(livro1,livro2,livro3,livro4,livro5);
-        livro3.setTítulo("Entre nós");
 
-         biblioteca1.adicionarLivro3(livro3,"A casa amarela","Infantil","2011","Sarah M. Broom");
+         biblioteca1.adicionarLivro3(livro3,"A casa amarela","Unico","infantil","2011","Sarah M. Broom","Somos Livros");
         System.out.println(livro3.getTítulo());
         System.out.println(livro1.detalhesDoProduto());
         System.out.println(livro1.getGenero());
@@ -26,9 +26,5 @@ public class Main   {
         System.out.println(livro3.detalhesDoProduto());
         biblioteca1.removerLivro("A casa amarela");
         System.out.println(livro3.getTítulo());
-        
-
-
-        livro1.detalhesDoProduto();
     }
 }
