@@ -10,6 +10,14 @@ public class Biblioteca  {
     Livro livro4;
     Livro livro5;
 
+    public Biblioteca(Livro livro1, Livro livro2, Livro livro3, Livro livro4, Livro livro5) {
+        this.livro1 = livro1;
+        this.livro2 = livro2;
+        this.livro3 = livro3;
+        this.livro4 = livro4;
+        this.livro5 = livro5;
+    }
+
     public void adicionarLivro1(Livro livro, String novotitulo, String novogenero, String novoanodepublicacao, String Novoauthor) {
         if (livro != null && livro.getTítulo() != null && !livro.getTítulo().isEmpty()) {
             this.livro1 = livro;
