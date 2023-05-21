@@ -47,7 +47,7 @@ public class Livro  extends  Produto {
     }
 
     public String detalhesDoProduto() {
-        return "Título: " + getTítulo() + ", Autor: " + Autor + ", Ano de Publicação: " + AnodePublicaçao + ", Disponível: " + Disponibilidade;
+        return "Título: " + getTítulo() + ",Volume:"+ Volume + ", Autor: " + Autor + ", Ano de Publicação: " + AnodePublicaçao + ", Disponível: " + Disponibilidade;
     }
     public void setTítulo(String novoTítulo) {
         this.Título = novoTítulo;

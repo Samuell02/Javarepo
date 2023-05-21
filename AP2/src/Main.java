@@ -20,11 +20,12 @@ public class Main   {
 
          biblioteca1.adicionarLivro3(livro3,"A casa amarela","Unico","infantil","2011","Sarah M. Broom","Somos Livros");
         System.out.println(livro3.getTítulo());
-        System.out.println(livro1.detalhesDoProduto());
+        System.out.println(livro3.detalhesDoProduto());
         System.out.println(livro1.getGenero());
         System.out.println(livro1.getEditora());
-        System.out.println(livro3.detalhesDoProduto());
         biblioteca1.removerLivro("A casa amarela");
         System.out.println(livro3.getTítulo());
+        System.out.println(livro3.detalhesDoProduto());
+
     }
 }
