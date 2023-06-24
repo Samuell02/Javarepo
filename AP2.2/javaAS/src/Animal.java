@@ -13,12 +13,34 @@ public class Animal {
          System.out.println("O mamifero anda em circulos");
      }
  }
+    public void AdicionarAnimal(String newName, String novaidade, String novopeso, String novaespecie) {
+        this.nome = newName;
+        this.idade = novaidade;
+        this.peso = novopeso;
+        this.especie = novaespecie;
+    }
 
     public void Movimentar() {
         System.out.println("O animal lentamente se aproxima do painel");
     }
 
-        public class ave implements Treinavel{
+    public String getNome() {
+        return nome;
+    }
+
+    public String getIdade() {
+        return idade;
+    }
+
+    public String getPeso() {
+        return peso;
+    }
+
+    public String getEspecie() {
+        return especie;
+    }
+
+    public class ave implements Treinavel{
         public double envergaduraAsa;
 
         void voar(){
