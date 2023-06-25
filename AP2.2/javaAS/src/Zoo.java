@@ -13,7 +13,7 @@ public class Zoo {
         this.animais = animais;
     }
 
-    public void addAnimal(Animal animal) {
+    public  void addAnimal(Animal animal) {
         if (numeroAnimais < animais.length) {
             animais[numeroAnimais] = animal;
             numeroAnimais++;

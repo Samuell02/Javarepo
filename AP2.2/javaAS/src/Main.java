@@ -3,6 +3,7 @@ public class Main {
         System.out.println("Hello world!");
 
         Animal animal1 = new Animal();
+
         Zoo.addAnimal(animal1);
     }
 }
