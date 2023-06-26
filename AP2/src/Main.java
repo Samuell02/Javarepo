@@ -30,7 +30,6 @@ public class Main   {
         System.out.println(biblioteca1.livro4.detalhesDoProduto());
         System.out.println(biblioteca1.livro4.getGenero());
         System.out.println(biblioteca1.livro4.getEditora());
-        System.out.println(biblioteca1.livro3.detalhesDoProduto());
         System.out.println(biblioteca1.livro5.detalhesDoProduto());
         System.out.println(biblioteca1.livro5.getGenero());
         System.out.println(biblioteca1.livro5.getEditora());

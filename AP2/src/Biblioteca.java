@@ -26,9 +26,11 @@ public class Biblioteca  {
             livro1.setGenero(novogenero);
             livro1.setAnodePublicaçao(novoanodepublicacao);
             livro1.setDisponibilidade("Sim");
+            livro1.setEditora(novaeditora);
+
 
         } else {
-            System.out.println("Não é possível adicionar um livro sem título ao slot 2.");
+            System.out.println("Não é possível adicionar um livro sem título ao slot 1.");
         }
     }
 
@@ -56,10 +58,10 @@ public class Biblioteca  {
             livro3.setGenero(novogenero);
             livro3.setAnodePublicaçao(novoanodepublicacao);
             livro3.setDisponibilidade("Sim");
-            livro3.setEditora((novaeditora));
+            livro3.setEditora(novaeditora);
 
         } else {
-            System.out.println("Não é possível adicionar um livro sem título ao slot 2.");
+            System.out.println("Não é possível adicionar um livro sem título ao slot 3.");
         }
 
     }
@@ -72,9 +74,11 @@ public class Biblioteca  {
             livro4.setGenero(novogenero);
             livro4.setAnodePublicaçao(novoanodepublicacao);
             livro4.setDisponibilidade("Sim");
+            livro4.setEditora(novaeditora);
+
 
         } else {
-            System.out.println("Não é possível adicionar um livro sem título ao slot 2.");
+            System.out.println("Não é possível adicionar um livro sem título ao slot 4.");
         }
     }
 
@@ -86,8 +90,10 @@ public class Biblioteca  {
             livro5.setGenero(novogenero);
             livro5.setAnodePublicaçao(novoanodepublicacao);
             livro5.setDisponibilidade("Sim");
+            livro4.setEditora(novaeditora);
+
         } else {
-            System.out.println("Não é possível adicionar um livro sem título ao slot 2.");
+            System.out.println("Não é possível adicionar um livro sem título ao slot 5.");
         }
 
     }
@@ -174,12 +180,7 @@ public class Biblioteca  {
         public void removerLivro(String novotitulo) {
             if (livro1 != null && livro1.getTítulo().equals(novotitulo)) {
                 livro1 = null;
-                livro1.setTítulo(null);
-                livro1.setEditora(null);
-                livro1.setAutor(null);
-                livro1.setDisponibilidade(null);
-                livro1.setAnodePublicaçao(null);
-                livro1.setGenero(null);
+
             } else if (livro2 != null && livro2.getTítulo().equals(novotitulo)) {
                 livro2 = null;
             } else if (livro3 != null && livro3.getTítulo().equals(novotitulo)) {
